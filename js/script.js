@@ -65,9 +65,9 @@ for(var i = 0; i < addBtn.length; i++) {
 
     add.addEventListener('click', function(){
         console.log(this);
-        console.log(this.previouseElementSibling);
+        console.log(this.previousElementSibling);
 
-        var thisCheckbox = this.previouseElementSibling;
+        var thisCheckbox = this.previousElementSibling;
         thisCheckbox.checked = !thisCheckbox.checked;
     })
 }
